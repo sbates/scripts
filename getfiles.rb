@@ -4,6 +4,10 @@
 # You only need to require fileutils when running on really old Ruby
 # I wrote this for work on a client running 1.8.5
 
+# This script also used to try and send the files back to the admin host
+# Which is why it references a remote server and directory
+# I'm going to try and re-implement that
+
 require 'fileutils'
 require 'socket'
 
